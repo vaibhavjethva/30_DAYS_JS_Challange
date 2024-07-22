@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Tasks</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: lightgray;
+            display: inline-block;
+            text-align: center;
+            line-height: 100px;
+        }
+        .highlight {
+            background-color: yellow;
+            padding: 10px;
+        }
+        .hover-box {
+            width: 200px;
+            height: 200px;
+            border: 3px solid black;
+            text-align: center;
+            line-height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">Old Title</h1>
+    <p id="description">This is the old description.</p>
+    <button onclick="changeContent()">Change Content</button>
+    
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+    <button onclick="changeBackgroundColor()">Change Background Color</button>
+    
+    <ul id="myList">
+        <li>Existing Item 1</li>
+        <li>Existing Item 2</li>
+        <!-- <li>New List Item</li> This is added by the script -->
+    </ul>  
+    
+    <button onclick="removeElement()">Remove Element</button>
+
+    <button onclick="removeLastChild()">Remove Last Child</button>
+
+    <img id="myImage" src="old-image.jpg" alt="Old Image" width="300">
+    <button onclick="changeImageSrc()">Change Image Source</button>
+
+    <div id="myDiv">This is a div element.</div>
+    <button onclick="addClass()">Add Highlight Class</button>
+    <button onclick="removeClass()">Remove Highlight Class</button>
+
+    <p id="myParagraph">This is the original text.</p>
+    <button id="changeTextButton">Change Text</button>
+
+    <div id="hoverDiv" class="hover-box">Hover over me!</div>
+
+    <script src="Activities.js"></script>
+</body>
+</html>
