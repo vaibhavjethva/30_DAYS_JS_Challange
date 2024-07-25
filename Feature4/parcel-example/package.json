@@ -1,0 +1,17 @@
+{
+  "name": "parcel-example",
+  "version": "1.0.0",
+  "scripts": {
+    "type": "module",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
