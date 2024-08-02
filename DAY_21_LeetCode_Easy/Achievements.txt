@@ -1,0 +1,5 @@
+By the end of this Activities, you will:
+- Solve common LeetCode problems.
+- Apply problem-solving skills to implement algorithms.
+- Understand and handle edge cases in algorithmic solutions.
+- Gain confidence in solving easy-level coding challanges on LeetCode.
