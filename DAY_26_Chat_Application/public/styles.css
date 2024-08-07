@@ -1,0 +1,145 @@
+/* Reset some basic styles */
+body, h1, form, input, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styles */
+body {
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* App container */
+#app {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+}
+
+/* Header styles */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Messages container */
+#messages {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    height: 400px;
+    overflow-y: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+/* Individual message styles */
+.message {
+    background-color: #e1e1e1;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    word-wrap: break-word;
+    animation: fadeIn 0.5s ease;
+}
+
+/* Different colors for different users */
+.message.user1 {
+    background-color: #d1e7dd;
+    align-self: flex-start; /* Align messages of user1 to the start */
+}
+
+.message.user2 {
+    background-color: #f8d7da;
+    align-self: flex-end; /* Align messages of user2 to the end */
+}
+
+/* Usernames */
+.username {
+    font-weight: bold;
+    margin-right: 5px;
+    color: #007BFF;
+}
+
+/* Form container */
+form {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: #ffffff;
+}
+
+/* Input styles */
+input[type="text"] {
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Button styles */
+button {
+    background-color: #007BFF;
+    border: 1px solid #007BFF;
+    border-radius: 0 4px 4px 0;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Additional styles for username input */
+#username-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#username-input {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#join-button {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#join-button:hover {
+    background-color: #0056b3;
+}
+
+/* CSS Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
